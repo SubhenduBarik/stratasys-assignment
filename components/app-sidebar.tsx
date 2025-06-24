@@ -11,7 +11,7 @@ import {Separator} from "@/components/ui/separator";
 import NewLayerButton from "@/components/NewLayerButton";
 import ToggleAll from "@/components/ToggleAll";
 
-export function AppSidebar({children}: { children: ReactNode, onAddNewLayer?: () => void }) {
+export function AppSidebar({children}: { children: ReactNode }) {
     return (
         <Sidebar>
             <SidebarContent>
