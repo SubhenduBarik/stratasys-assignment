@@ -26,7 +26,7 @@ export default function Home() {
                             </li>
                             <li>
                                 <span>
-                                  To access the GraphQL playground, go to{" "}
+                                  To access the GraphQL playground in development mode, go to{" "}
                                     <Link href="/api/graphql" passHref>
                                     <Button variant="link" className="p-0 h-auto text-green-600 hover:underline">
                                       /api/graphql
